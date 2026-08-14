@@ -1,0 +1,10 @@
+{
+  "environment": "prod",
+  "approved_private_dns_zones": {
+    "storage_blob": "/subscriptions/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee/resourceGroups/net-prod-rg/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net",
+    "storage_queue": "/subscriptions/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee/resourceGroups/net-prod-rg/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net",
+    "keyvault": "/subscriptions/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee/resourceGroups/net-prod-rg/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net"
+  },
+  "generated_at": "2026-08-14T00:00:00Z",
+  "owner": "network-team"
+}
