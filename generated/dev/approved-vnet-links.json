@@ -1,7 +1,6 @@
 {
   "environment": "dev",
   "approved_vnet_links": {
-    "app_vnet": "/subscriptions/11111111-2222-3333-4444-555555555555/resourceGroups/net-dev-rg/providers/Microsoft.Network/virtualNetworks/app-vnet"
   },
   "generated_at": "2026-08-14T00:00:00Z",
   "owner": "network-team"
