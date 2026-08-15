@@ -1,7 +1,17 @@
 {
   "environment": "dev",
   "approved_private_dns_zones": {
+    "type": [
+      "object",
+      {
+        "storage_blob": "string"
+      }
+    ],
+    "sensitive": false,
+    "value": {
+      "storage_blob": "/subscriptions/$ARM_SUBSCRIPTION_ID/resourceGroups/rg-dev-network/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net"
+    }
   },
-  "generated_at": "2026-08-14T00:00:00Z",
+  "generated_at": "2026-08-15T15:16:49.0163925+02:00",
   "owner": "network-team"
 }

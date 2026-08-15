@@ -11,3 +11,8 @@ output "private_dns_zone_names" {
     for key, zone in module.private_dns_zones : key => zone.private_dns_zone_name
   }
 }
+
+output "approved_vnet_links" {
+  description = "The approved VNet IDs to link to the shared private DNS zones."
+  value       = var.approved_vnet_links
+}
