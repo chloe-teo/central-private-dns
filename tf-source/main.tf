@@ -20,7 +20,7 @@ resource "azurerm_private_dns_zone_virtual_network_link" "this" {
     for pair in flatten([
       for dns_key, dns_name in var.private_dns_zones : [
         for vnet_key, vnet_id in var.approved_vnet_links : {
-          key     = "${vnet_key}"
+          key     = "${dns_key}-${vnet_key}"
           dns_key = dns_key
           dns_name = dns_name
           vnet_id = vnet_id
