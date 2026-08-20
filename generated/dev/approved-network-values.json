@@ -10,7 +10,7 @@
     "sensitive": false,
     "value": {
       "storage_blob": "/subscriptions/$ARM_SUBSCRIPTION_ID/resourceGroups/rg-dev-network/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net",
-      "keyvault": "/subscriptions/$ARM_SUBSCRIPTION_ID/resourceGroups/rg-dev-network/providers/Microsoft.Network/privateDnsZones/privatelink.keyvault.core.windows.net"
+      "keyvault": "/subscriptions/$ARM_SUBSCRIPTION_ID/resourceGroups/rg-dev-network/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net"
     }
   },
   "generated_at": "2026-08-15T15:16:49.0163925+02:00",
